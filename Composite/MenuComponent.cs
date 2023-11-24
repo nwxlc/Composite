@@ -1,6 +1,6 @@
 namespace Composite;
 
-internal class MenuComponent
+internal abstract class MenuComponent
 {
     protected string name;
 

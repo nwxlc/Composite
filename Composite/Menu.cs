@@ -1,4 +1,4 @@
-/*namespace Composite;
+namespace Composite;
 
 internal class Menu : MenuComponent
 {
@@ -27,6 +27,6 @@ internal class Menu : MenuComponent
         foreach (MenuComponent component in _menuComponents)
         {
             component.Print();
-        }dfdfdfsdfsd
+        }
     }
-}*/
+}
