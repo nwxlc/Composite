@@ -23,7 +23,7 @@ internal class Menu : MenuComponent
     public override void Print()
     {
         Console.WriteLine(name);
- 
+        //nwolc
         foreach (MenuComponent component in _menuComponents)
         {
             component.Print();
