@@ -1,10 +1,14 @@
 namespace Composite;
 
-internal class MenuItem : MenuComponent
+public class MenuItem : MenuComponent
 {
-    public MenuItem(string name)
-        :base(name)
-    {}
+    public bool IsVegan { get; private set; }
+
+    public MenuItem(string name, bool isVegan)
+        : base(name)
+    {
+        IsVegan = isVegan;
+    }
 
     public override void Add(MenuComponent component)
     {
